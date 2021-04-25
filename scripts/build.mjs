@@ -1,3 +1,4 @@
+/* globals process */
 import esbuild from "esbuild";
 import { baseConfig, platform } from "./config.mjs";
 

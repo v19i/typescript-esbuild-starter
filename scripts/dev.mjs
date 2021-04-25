@@ -1,5 +1,6 @@
+/* globals process */
 import esbuild from "esbuild";
-import { baseConfig, platform } from "./config.mjs";
+import { baseConfig } from "./config.mjs";
 
 let config = {
   ...baseConfig,
