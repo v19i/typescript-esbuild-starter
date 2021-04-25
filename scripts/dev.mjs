@@ -3,7 +3,6 @@ import { baseConfig, platform } from "./config.mjs";
 
 let config = {
   ...baseConfig,
-  platform: platform.node,
   watch: true,
 };
 
