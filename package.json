@@ -1,12 +1,13 @@
 {
   "name": "typescript-esbuild-starter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Template to get started with a TypesScript project",
   "main": "dist/index.js",
+  "types": ".dist/index.d.ts",
   "type": "module",
   "scripts": {
     "dev": "tsc --noEmit --watch & node scripts/dev.mjs",
-    "build": "tsc --noEmit && node scripts/build.mjs",
+    "build": "tsc --noEmit && tsc --declaration && node scripts/build.mjs",
     "test": "mocha",
     "coverage": "nyc mocha"
   },

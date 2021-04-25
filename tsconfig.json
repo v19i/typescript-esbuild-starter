@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "lib": ["ES2020"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "outDir": "./dist"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "./src/**/*.spec.ts"]
