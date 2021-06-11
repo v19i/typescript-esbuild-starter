@@ -2,4 +2,4 @@ app: "res"
 spec: [ "src/**/*.spec.ts" ]
 extension:
   - ts
-require: "ts-node/register"
+require: [ "ts-node/register", "mochaInit.js" ]
