@@ -1,4 +1,4 @@
-app: "res"
+app: "typescript-esbuild-starter"
 spec: [ "src/**/*.spec.ts" ]
 extension:
   - ts
