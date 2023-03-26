@@ -3,3 +3,4 @@ spec: [ "src/**/*.spec.ts" ]
 extension:
   - ts
 require: [ "ts-node/register", "mochaInit.js" ]
+loader: "ts-node/esm"

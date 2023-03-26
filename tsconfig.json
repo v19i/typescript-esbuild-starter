@@ -2,9 +2,10 @@
   "compilerOptions": {
     "strict": true,
     "declaration": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "module": "NodeNext",
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "./src/**/*.spec.ts"]
